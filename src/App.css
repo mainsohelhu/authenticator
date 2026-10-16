@@ -1,7 +1,13 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f1f5f9;
+  background-image: url('./12728543.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: pink;
+  
 }
 
 .container {
@@ -9,7 +15,7 @@ body {
   max-width: calc(100% - 40px);
   margin: 100px auto;
   padding: 25px;
-  background: white;
+  background: rgba(255, 255, 255, 0.238);
   border-radius: 12px;
   box-shadow: 0 4px 15px #00000015;
 }
@@ -26,7 +32,7 @@ button {
   padding: 12px;
   border: none;
   border-radius: 6px;
-  background: #e86f71;
+  background: #e23b3e;
   color: white;
   cursor: pointer;
 }
@@ -36,7 +42,7 @@ button:hover {
 }
 
 a {
-  color: #e86f71;
+  color: #e23b3e;
 }
 
 
